@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  let p = '<p>Cho mảng :[-3,5,3,25,1,10,22]</p>'
+  let arr_num = [-3,5,3,25,1,10,22];
+  let max = arr_num[0];
+  let i = 1;
+  while (i < arr_num.length) {
+    if (max < arr_num[i]) {
+      max = arr_num[i];
+    }
+    i++;
+  }
+  document.write(`${p} Giá trị lớn nhất trong mảng là ${max}`);
+</script>
+</body>
+</html>
